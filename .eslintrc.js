@@ -26,6 +26,7 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    'react/state-in-constructor': [true, 'always'],
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',
